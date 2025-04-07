@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .menu-container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 600px; /* Adjust as needed */
+            margin: auto;
+            padding: 20px;
+        }
+
+        .menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu-left, .menu-right {
+            display: flex;
+            flex-direction: column;
+            gap: 10px; /* Adjust spacing */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu-container">
+        <!-- Left Column -->
+        <ul class="menu menu-left">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Our Cases</li>
+            <li>Other Links</li>
+        </ul>
+
+        <!-- Right Column -->
+        <ul class="menu menu-right">
+            <li>Counseling</li>
+            <li>Finance</li>
+            <li>Testimonials</li>
+            <li>FAQ</li>
+            <li>Contact Us</li>
+        </ul>
+    </div>
+
+</body>
+</html>
